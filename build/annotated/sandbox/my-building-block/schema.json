@@ -19,10 +19,10 @@
       "x-jsonld-id": "https://example.org/my-bb-model/b"
     },
     "c": {
-      "$ref": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema.json#/definitions/test"
+      "$ref": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema.json#/definitions/test"
     },
     "d": {
-      "$ref": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.json"
+      "$ref": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/enumerations/legalStatus/schema.json"
     }
   },
   "required": [

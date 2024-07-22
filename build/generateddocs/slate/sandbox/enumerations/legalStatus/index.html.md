@@ -39,18 +39,18 @@ enum:
 
 ```
 
-> <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Favillar.github.io%2Fbblocks-sandbox%2Fbuild%2Fannotated%2Fsandbox%2Fenumerations%2FlegalStatus%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a>
+> <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Fraw.githubusercontent.com%2Favillar%2Fbblocks-sandbox-nopages%2Fundefined%2Fbuild%2Fannotated%2Fsandbox%2Fenumerations%2FlegalStatus%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a>
 
 Links to the schema:
 
-* YAML version: <a href="https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.yaml" target="_blank">https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.yaml</a>
-* JSON version: <a href="https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.json" target="_blank">https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.json</a>
+* YAML version: <a href="https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/enumerations/legalStatus/schema.yaml" target="_blank">https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/enumerations/legalStatus/schema.yaml</a>
+* JSON version: <a href="https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/enumerations/legalStatus/schema.json" target="_blank">https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/enumerations/legalStatus/schema.json</a>
 
 # For developers
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: <a href="https://github.com/avillar/bblocks-sandbox" target="_blank">https://github.com/avillar/bblocks-sandbox</a>
+* URL: <a href="https://github.com/avillar/bblocks-sandbox-nopages" target="_blank">https://github.com/avillar/bblocks-sandbox-nopages</a>
 * Path:
-<code><a href="https://github.com/avillar/bblocks-sandbox/blob/HEAD/_sources/enumerations/legalStatus" target="_blank">_sources/enumerations/legalStatus</a></code>
+<code><a href="https://github.com/avillar/bblocks-sandbox-nopages/blob/HEAD/_sources/enumerations/legalStatus" target="_blank">_sources/enumerations/legalStatus</a></code>
 

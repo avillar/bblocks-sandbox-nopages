@@ -18,8 +18,8 @@ properties:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/remote-cache/schema.json)
-* JSON version: [schema.json](https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/remote-cache/schema.yaml)
+* YAML version: [schema.yaml](https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/remote-cache/schema.json)
+* JSON version: [schema.json](https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/remote-cache/schema.yaml)
 
 ## Sources
 
@@ -29,6 +29,6 @@ Links to the schema:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/avillar/bblocks-sandbox](https://github.com/avillar/bblocks-sandbox)
+* URL: [https://github.com/avillar/bblocks-sandbox-nopages](https://github.com/avillar/bblocks-sandbox-nopages)
 * Path: `_sources/remote-cache`
 

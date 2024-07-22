@@ -1,7 +1,7 @@
 {
   "@context": [
     {
-      "@base": "https://avillar.github.io/bblocks-sandbox"
+      "@base": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined"
     },
     {
       "bblocks": "https://www.opengis.net/def/bblocks/",
@@ -106,7 +106,7 @@
   "name": "Building Blocks - My OGC Building Blocks repository",
   "abstract": "This is an example text for the abstract. It should be short and to the point.\nA \"Tell me more\" link will appear if there is an additional description with a longer explanation.\n",
   "description": "The description can be longer. Both **the abstract** *and the description* support Markdown,\nincluding [links](https://google.es).\n",
-  "modified": "2024-07-09T06:24:15.908825",
+  "modified": "2024-07-22T11:19:28.277711",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"59af8b65c87552d103c26900d115b39f46238b57",
@@ -114,11 +114,11 @@
       "date": "2024-07-08T08:08:11+00:00\""
     }
   },
-  "gitRepository": "https://github.com/avillar/bblocks-sandbox",
-  "gitHubRepository": "https://github.com/avillar/bblocks-sandbox/blob/master/",
-  "baseURL": "https://avillar.github.io/bblocks-sandbox/",
-  "viewerURL": "https://avillar.github.io/bblocks-sandbox/",
-  "validationReport": "https://avillar.github.io/bblocks-sandbox/build/tests/report.html",
+  "gitRepository": "https://github.com/avillar/bblocks-sandbox-nopages",
+  "gitHubRepository": "https://github.com/avillar/bblocks-sandbox-nopages/blob/master/",
+  "baseURL": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/",
+  "viewerURL": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/",
+  "validationReport": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/tests/report.html",
   "imports": [
     "https://opengeospatial.github.io/bblocks/register.json"
   ],
@@ -137,27 +137,27 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2023-04-05",
+      "dateOfLastChange": "2024-07-22",
       "shaclRules": {},
       "schema": {
-        "application/yaml": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.yaml",
-        "application/json": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/enumerations/legalStatus/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/enumerations/legalStatus/schema.json"
       },
-      "sourceSchema": "https://avillar.github.io/bblocks-sandbox/_sources/enumerations/legalStatus/schema.yaml",
-      "sourceFiles": "https://avillar.github.io/bblocks-sandbox/_sources/enumerations/legalStatus/",
+      "sourceSchema": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/_sources/enumerations/legalStatus/schema.yaml",
+      "sourceFiles": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/_sources/enumerations/legalStatus/",
       "validationPassed": true,
       "documentation": {
-        "markdown": {
-          "mediatype": "text/markdown",
-          "url": "https://avillar.github.io/bblocks-sandbox/build/generateddocs/markdown/sandbox/enumerations/legalStatus/index.md"
-        },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://avillar.github.io/bblocks-sandbox/build/generateddocs/json-full/sandbox/enumerations/legalStatus/index.json"
+          "url": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/generateddocs/json-full/sandbox/enumerations/legalStatus/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/generateddocs/markdown/sandbox/enumerations/legalStatus/index.md"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://avillar.github.io/bblocks-sandbox/bblock/avillar.sandbox.enumerations.legalStatus"
+          "url": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/bblock/avillar.sandbox.enumerations.legalStatus"
         }
       },
       "@type": [
@@ -175,7 +175,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2023-04-05",
+      "dateOfLastChange": "2024-07-22",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -193,26 +193,26 @@
         "http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/thing"
       ],
       "schema": {
-        "application/yaml": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/remote-cache/schema.yaml",
-        "application/json": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/remote-cache/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/remote-cache/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/remote-cache/schema.json"
       },
       "shaclRules": {},
-      "remoteCacheDir": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/remote-cache/remote_cache/",
+      "remoteCacheDir": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/remote-cache/remote_cache/",
       "sourceSchema": "https://defs-dev.opengis.net/static/sample-schema.yml",
-      "sourceFiles": "https://avillar.github.io/bblocks-sandbox/_sources/remote-cache/",
+      "sourceFiles": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/_sources/remote-cache/",
       "validationPassed": true,
       "documentation": {
-        "markdown": {
-          "mediatype": "text/markdown",
-          "url": "https://avillar.github.io/bblocks-sandbox/build/generateddocs/markdown/sandbox/remote-cache/index.md"
-        },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://avillar.github.io/bblocks-sandbox/build/generateddocs/json-full/sandbox/remote-cache/index.json"
+          "url": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/generateddocs/json-full/sandbox/remote-cache/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/generateddocs/markdown/sandbox/remote-cache/index.md"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://avillar.github.io/bblocks-sandbox/bblock/avillar.sandbox.remote-cache"
+          "url": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/bblock/avillar.sandbox.remote-cache"
         }
       },
       "@type": [
@@ -230,7 +230,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2023-04-05",
+      "dateOfLastChange": "2024-07-22",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -251,28 +251,28 @@
       "dependsOn": [
         "avillar.sandbox.enumerations.legalStatus"
       ],
-      "ldContext": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/context.jsonld",
+      "ldContext": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/context.jsonld",
       "schema": {
-        "application/yaml": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema.yaml",
-        "application/json": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema.json"
       },
-      "sourceSchema": "https://avillar.github.io/bblocks-sandbox/_sources/my-building-block/schema.yaml",
-      "sourceLdContext": "https://avillar.github.io/bblocks-sandbox/_sources/my-building-block/context.jsonld",
-      "sourceFiles": "https://avillar.github.io/bblocks-sandbox/_sources/my-building-block/",
+      "sourceSchema": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/_sources/my-building-block/schema.yaml",
+      "sourceLdContext": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/_sources/my-building-block/context.jsonld",
+      "sourceFiles": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/_sources/my-building-block/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/avillar/bblocks-sandbox/blob/master/build/tests/sandbox/my-building-block/",
+      "testOutputs": "https://github.com/avillar/bblocks-sandbox-nopages/blob/master/build/tests/sandbox/my-building-block/",
       "documentation": {
-        "markdown": {
-          "mediatype": "text/markdown",
-          "url": "https://avillar.github.io/bblocks-sandbox/build/generateddocs/markdown/sandbox/my-building-block/index.md"
-        },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://avillar.github.io/bblocks-sandbox/build/generateddocs/json-full/sandbox/my-building-block/index.json"
+          "url": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/generateddocs/json-full/sandbox/my-building-block/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/generateddocs/markdown/sandbox/my-building-block/index.md"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://avillar.github.io/bblocks-sandbox/bblock/avillar.sandbox.my-building-block"
+          "url": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/bblock/avillar.sandbox.my-building-block"
         }
       },
       "@type": [

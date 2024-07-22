@@ -1,5 +1,5 @@
 {
   "a": 123,
   "b": 99,
-  "@context": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/context.jsonld"
+  "@context": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/context.jsonld"
 }

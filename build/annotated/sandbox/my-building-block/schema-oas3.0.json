@@ -20,17 +20,17 @@
           "x-jsonld-id": "https://example.org/my-bb-model/b"
         },
         "c": {
-          "$ref": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema-oas3.0.json#/x-defs/avillar.sandbox.my-building-block_1/definitions/test"
+          "$ref": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema-oas3.0.json#/x-defs/avillar.sandbox.my-building-block_1/definitions/test"
         },
         "d": {
-          "$ref": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema-oas3.0.json#/x-defs/avillar.sandbox.enumerations.legalStatus_1"
+          "$ref": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema-oas3.0.json#/x-defs/avillar.sandbox.enumerations.legalStatus_1"
         }
       },
       "required": [
         "a",
         "b"
       ],
-      "x-schema-source": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema.json",
+      "x-schema-source": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema.json",
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema"
     },
     "avillar.sandbox.enumerations.legalStatus": {
@@ -39,7 +39,7 @@
         "agreed",
         "notAgreed"
       ],
-      "x-schema-source": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.json"
+      "x-schema-source": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/enumerations/legalStatus/schema.json"
     },
     "avillar.sandbox.my-building-block_1": {
       "description": "Schema for my building block",
@@ -61,17 +61,17 @@
           "x-jsonld-id": "https://example.org/my-bb-model/b"
         },
         "c": {
-          "$ref": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema-oas3.0.json#/x-defs/avillar.sandbox.my-building-block_1/definitions/test"
+          "$ref": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema-oas3.0.json#/x-defs/avillar.sandbox.my-building-block_1/definitions/test"
         },
         "d": {
-          "$ref": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema-oas3.0.json#/x-defs/avillar.sandbox.enumerations.legalStatus_1"
+          "$ref": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema-oas3.0.json#/x-defs/avillar.sandbox.enumerations.legalStatus_1"
         }
       },
       "required": [
         "a",
         "b"
       ],
-      "x-schema-source": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema.yaml",
+      "x-schema-source": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema.yaml",
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema"
     },
     "avillar.sandbox.enumerations.legalStatus_1": {
@@ -80,7 +80,7 @@
         "agreed",
         "notAgreed"
       ],
-      "x-schema-source": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.yaml"
+      "x-schema-source": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/enumerations/legalStatus/schema.yaml"
     }
   },
   "description": "Schema for my building block",
@@ -102,10 +102,10 @@
       "x-jsonld-id": "https://example.org/my-bb-model/b"
     },
     "c": {
-      "$ref": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema-oas3.0.json#/x-defs/avillar.sandbox.my-building-block/definitions/test"
+      "$ref": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema-oas3.0.json#/x-defs/avillar.sandbox.my-building-block/definitions/test"
     },
     "d": {
-      "$ref": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema-oas3.0.json#/x-defs/avillar.sandbox.enumerations.legalStatus"
+      "$ref": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema-oas3.0.json#/x-defs/avillar.sandbox.enumerations.legalStatus"
     }
   },
   "required": [

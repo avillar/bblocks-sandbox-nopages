@@ -9,16 +9,16 @@
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2023-04-05",
+  "dateOfLastChange": "2024-07-22",
   "shaclRules": {},
   "schema": {
-    "application/yaml": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.yaml",
-    "application/json": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.json"
+    "application/yaml": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/enumerations/legalStatus/schema.yaml",
+    "application/json": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/enumerations/legalStatus/schema.json"
   },
-  "sourceSchema": "https://avillar.github.io/bblocks-sandbox/_sources/enumerations/legalStatus/schema.yaml",
-  "sourceFiles": "https://avillar.github.io/bblocks-sandbox/_sources/enumerations/legalStatus/",
+  "sourceSchema": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/_sources/enumerations/legalStatus/schema.yaml",
+  "sourceFiles": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/_sources/enumerations/legalStatus/",
   "validationPassed": true,
   "annotatedSchema": "type: string\nenum:\n- agreed\n- notAgreed\n",
-  "gitRepository": "https://github.com/avillar/bblocks-sandbox",
+  "gitRepository": "https://github.com/avillar/bblocks-sandbox-nopages",
   "gitPath": "_sources/enumerations/legalStatus"
 }

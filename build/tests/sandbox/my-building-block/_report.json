@@ -2,7 +2,7 @@
   "title": "Validation report for avillar.sandbox.my-building-block - My Building Block",
   "bblockName": "My Building Block",
   "bblockId": "avillar.sandbox.my-building-block",
-  "generated": "2024-07-09T06:24:17.893651+00:00",
+  "generated": "2024-07-22T11:19:30.139965+00:00",
   "result": true,
   "items": [
     {
@@ -10,7 +10,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": false,
         "filename": "_sources/my-building-block/tests/resource1.json",
-        "url": "https://avillar.github.io/bblocks-sandbox/_sources/my-building-block/tests/resource1.json",
+        "url": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/_sources/my-building-block/tests/resource1.json",
         "language": "json",
         "sourceUrl": "https://gist.github.com/avillar/4a06ed5c88e8cb4662873a805ae10e33/raw/8eb0510d1121371940d860846448833706050533/resource1.json"
       },
@@ -89,7 +89,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": true,
         "filename": "_sources/my-building-block/tests/resource2.json",
-        "url": "https://avillar.github.io/bblocks-sandbox/_sources/my-building-block/tests/resource2.json",
+        "url": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/_sources/my-building-block/tests/resource2.json",
         "language": "json",
         "sourceUrl": "https://gist.github.com/avillar/4a06ed5c88e8cb4662873a805ae10e33/raw/8eb0510d1121371940d860846448833706050533/resource2.json"
       },
@@ -176,7 +176,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": true,
         "filename": "_sources/my-building-block/tests/resource3.json",
-        "url": "https://avillar.github.io/bblocks-sandbox/_sources/my-building-block/tests/resource3.json",
+        "url": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/_sources/my-building-block/tests/resource3.json",
         "language": "json",
         "sourceUrl": "https://gist.github.com/avillar/4a06ed5c88e8cb4662873a805ae10e33/raw/8eb0510d1121371940d860846448833706050533/resource3.json"
       },
@@ -232,7 +232,7 @@
               "exception": "ValidationError",
               "errorMessage": "'b' is a required property",
               "isError": true,
-              "message": "ValidationError: 'b' is a required property\n\nFailed validating 'required' in schema:\n    {'$schema': 'https://json-schema.org/draft/2020-12/schema',\n     'definitions': {'test': {'type': 'string'}},\n     'description': 'Schema for my building block',\n     'properties': {'a': {'format': 'uri',\n                          'type': 'string',\n                          'x-jsonld-id': 'https://example.org/my-bb-model/a',\n                          'x-jsonld-type': '@id'},\n                    'b': {'type': 'number',\n                          'x-jsonld-id': 'https://example.org/my-bb-model/b'},\n                    'c': {'$ref': 'https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema.yaml#/definitions/test'},\n                    'd': {'$ref': 'https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.yaml'}},\n     'required': ['a', 'b'],\n     'type': 'object'}\n\nOn instance:\n    {'a': 'http://www.google.es'}"
+              "message": "ValidationError: 'b' is a required property\n\nFailed validating 'required' in schema:\n    {'$schema': 'https://json-schema.org/draft/2020-12/schema',\n     'definitions': {'test': {'type': 'string'}},\n     'description': 'Schema for my building block',\n     'properties': {'a': {'format': 'uri',\n                          'type': 'string',\n                          'x-jsonld-id': 'https://example.org/my-bb-model/a',\n                          'x-jsonld-type': '@id'},\n                    'b': {'type': 'number',\n                          'x-jsonld-id': 'https://example.org/my-bb-model/b'},\n                    'c': {'$ref': 'https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema.yaml#/definitions/test'},\n                    'd': {'$ref': 'https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/enumerations/legalStatus/schema.yaml'}},\n     'required': ['a', 'b'],\n     'type': 'object'}\n\nOn instance:\n    {'a': 'http://www.google.es'}"
             }
           ]
         },
@@ -263,7 +263,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": true,
         "filename": "_sources/my-building-block/tests/resource4.json",
-        "url": "https://avillar.github.io/bblocks-sandbox/_sources/my-building-block/tests/resource4.json",
+        "url": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/_sources/my-building-block/tests/resource4.json",
         "language": "json",
         "sourceUrl": "https://gist.github.com/avillar/4a06ed5c88e8cb4662873a805ae10e33/raw/8eb0510d1121371940d860846448833706050533/resource4.json"
       },
@@ -325,7 +325,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": false,
         "filename": "_sources/my-building-block/tests/one-again.json",
-        "url": "https://avillar.github.io/bblocks-sandbox/_sources/my-building-block/tests/one-again.json",
+        "url": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/_sources/my-building-block/tests/one-again.json",
         "language": "json",
         "sourceUrl": "https://gist.github.com/avillar/4a06ed5c88e8cb4662873a805ae10e33/raw/8eb0510d1121371940d860846448833706050533/resource1.json"
       },

@@ -30,7 +30,7 @@ This Building Block serves as a template to create new ones
 </p>
 
 <aside class="success">
-This building block is <strong><a href="https://github.com/avillar/bblocks-sandbox/blob/master/build/tests/sandbox/my-building-block/" target="_blank">valid</a></strong>
+This building block is <strong><a href="https://github.com/avillar/bblocks-sandbox-nopages/blob/master/build/tests/sandbox/my-building-block/" target="_blank">valid</a></strong>
 </aside>
 
 # Description
@@ -112,21 +112,21 @@ properties:
     type: number
     x-jsonld-id: https://example.org/my-bb-model/b
   c:
-    $ref: https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema.yaml#/definitions/test
+    $ref: https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema.yaml#/definitions/test
   d:
-    $ref: https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.yaml
+    $ref: https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/enumerations/legalStatus/schema.yaml
 required:
 - a
 - b
 
 ```
 
-> <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Favillar.github.io%2Fbblocks-sandbox%2Fbuild%2Fannotated%2Fsandbox%2Fmy-building-block%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a>
+> <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Fraw.githubusercontent.com%2Favillar%2Fbblocks-sandbox-nopages%2Fundefined%2Fbuild%2Fannotated%2Fsandbox%2Fmy-building-block%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a>
 
 Links to the schema:
 
-* YAML version: <a href="https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema.yaml" target="_blank">https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema.yaml</a>
-* JSON version: <a href="https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema.json" target="_blank">https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema.json</a>
+* YAML version: <a href="https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema.yaml" target="_blank">https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema.yaml</a>
+* JSON version: <a href="https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema.json" target="_blank">https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema.json</a>
 
 
 # JSON-LD Context
@@ -144,10 +144,10 @@ Links to the schema:
 }
 ```
 
-> <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Favillar.github.io%2Fbblocks-sandbox%2Fbuild%2Fannotated%2Fsandbox%2Fmy-building-block%2Fcontext.jsonld">View on JSON-LD Playground</a>
+> <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Favillar%2Fbblocks-sandbox-nopages%2Fundefined%2Fbuild%2Fannotated%2Fsandbox%2Fmy-building-block%2Fcontext.jsonld">View on JSON-LD Playground</a>
 
 You can find the full JSON-LD context here:
-<a href="https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/context.jsonld" target="_blank">https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/context.jsonld</a>
+<a href="https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/context.jsonld" target="_blank">https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/context.jsonld</a>
 
 # References
 
@@ -157,7 +157,7 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: <a href="https://github.com/avillar/bblocks-sandbox" target="_blank">https://github.com/avillar/bblocks-sandbox</a>
+* URL: <a href="https://github.com/avillar/bblocks-sandbox-nopages" target="_blank">https://github.com/avillar/bblocks-sandbox-nopages</a>
 * Path:
-<code><a href="https://github.com/avillar/bblocks-sandbox/blob/HEAD/_sources/my-building-block" target="_blank">_sources/my-building-block</a></code>
+<code><a href="https://github.com/avillar/bblocks-sandbox-nopages/blob/HEAD/_sources/my-building-block" target="_blank">_sources/my-building-block</a></code>
 

@@ -8,79 +8,79 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://avillar.github.io/avillar.sandbox.my-building-block> a skos:Concept,
-        dcat:Dataset,
-        bblocks:Schema ;
-    rdfs:label "My Building Block" ;
-    dct:abstract "This Building Block serves as a template to create new ones" ;
-    dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://avillar.github.io/bblocks-sandbox/bblock/avillar.sandbox.my-building-block" ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://avillar.github.io/bblocks-sandbox/build/generateddocs/json-full/sandbox/my-building-block/index.json" ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://avillar.github.io/bblocks-sandbox/build/generateddocs/markdown/sandbox/my-building-block/index.md" ] ;
-    dct:hasVersion "0.1" ;
-    dct:modified "2023-04-05"^^xsd:date ;
-    dct:source <https://example.com/sources/1> ;
-    modspec:class <http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/historical-location>,
-        <http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/thing> ;
-    skos:inScheme <https://avillar.github.io/bblocks-sandbox/> ;
-    dcat:keyword "templates" ;
-    bblocks:dependsOn <https://avillar.github.io/avillar.sandbox.enumerations.legalStatus> ;
-    bblocks:hasJsonLdContext <https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/context.jsonld> ;
-    bblocks:hasSchema <https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema.json>,
-        <https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema.yaml> ;
-    bblocks:hasSourceJsonLdContext <https://avillar.github.io/bblocks-sandbox/_sources/my-building-block/context.jsonld> ;
-    bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
-    bblocks:status <http://www.opengis.net/def/status/under-development> .
-
-<https://avillar.github.io/avillar.sandbox.remote-cache> a skos:Concept,
+<https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/avillar.sandbox.my-building-block> a skos:Concept,
         dcat:Dataset,
         bblocks:Schema ;
     rdfs:label "My Building Block" ;
     dct:abstract "This Building Block serves as a template to create new ones" ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://avillar.github.io/bblocks-sandbox/build/generateddocs/markdown/sandbox/remote-cache/index.md" ],
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/generateddocs/markdown/sandbox/my-building-block/index.md" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://avillar.github.io/bblocks-sandbox/bblock/avillar.sandbox.remote-cache" ],
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/bblock/avillar.sandbox.my-building-block" ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://avillar.github.io/bblocks-sandbox/build/generateddocs/json-full/sandbox/remote-cache/index.json" ] ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/generateddocs/json-full/sandbox/my-building-block/index.json" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2023-04-05"^^xsd:date ;
+    dct:modified "2024-07-22"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
     modspec:class <http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/historical-location>,
         <http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/thing> ;
-    skos:inScheme <https://avillar.github.io/bblocks-sandbox/> ;
+    skos:inScheme <https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/> ;
     dcat:keyword "templates" ;
-    bblocks:hasSchema <https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/remote-cache/schema.json>,
-        <https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/remote-cache/schema.yaml> ;
+    bblocks:dependsOn <https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/avillar.sandbox.enumerations.legalStatus> ;
+    bblocks:hasJsonLdContext <https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/context.jsonld> ;
+    bblocks:hasSchema <https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema.json>,
+        <https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema.yaml> ;
+    bblocks:hasSourceJsonLdContext <https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/_sources/my-building-block/context.jsonld> ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> .
 
-<https://avillar.github.io/avillar.sandbox.enumerations.legalStatus> a skos:Concept,
+<https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/avillar.sandbox.remote-cache> a skos:Concept,
+        dcat:Dataset,
+        bblocks:Schema ;
+    rdfs:label "My Building Block" ;
+    dct:abstract "This Building Block serves as a template to create new ones" ;
+    dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/generateddocs/json-full/sandbox/remote-cache/index.json" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/generateddocs/markdown/sandbox/remote-cache/index.md" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/bblock/avillar.sandbox.remote-cache" ] ;
+    dct:hasVersion "0.1" ;
+    dct:modified "2024-07-22"^^xsd:date ;
+    dct:source <https://example.com/sources/1> ;
+    modspec:class <http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/historical-location>,
+        <http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/thing> ;
+    skos:inScheme <https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/> ;
+    dcat:keyword "templates" ;
+    bblocks:hasSchema <https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/remote-cache/schema.json>,
+        <https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/remote-cache/schema.yaml> ;
+    bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> .
+
+<https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/avillar.sandbox.enumerations.legalStatus> a skos:Concept,
         dcat:Dataset,
         bblocks:Schema ;
     rdfs:label "Legal Status" ;
     dct:abstract "This Building Block serves as a template to create new ones" ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://avillar.github.io/bblocks-sandbox/bblock/avillar.sandbox.enumerations.legalStatus" ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/generateddocs/markdown/sandbox/enumerations/legalStatus/index.md" ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://avillar.github.io/bblocks-sandbox/build/generateddocs/json-full/sandbox/enumerations/legalStatus/index.json" ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://avillar.github.io/bblocks-sandbox/build/generateddocs/markdown/sandbox/enumerations/legalStatus/index.md" ] ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/generateddocs/json-full/sandbox/enumerations/legalStatus/index.json" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/bblock/avillar.sandbox.enumerations.legalStatus" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2023-04-05"^^xsd:date ;
-    skos:inScheme <https://avillar.github.io/bblocks-sandbox/> ;
-    bblocks:hasSchema <https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.json>,
-        <https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.yaml> ;
+    dct:modified "2024-07-22"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/> ;
+    bblocks:hasSchema <https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/enumerations/legalStatus/schema.json>,
+        <https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/enumerations/legalStatus/schema.yaml> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> .
 
 <https://example.com/sources/1> rdfs:label "Sample source document" .
 
-<https://avillar.github.io/bblocks-sandbox/> a skos:ConceptScheme,
+<https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/> a skos:ConceptScheme,
         dcat:Catalog ;
     rdfs:label "Building Blocks - My OGC Building Blocks repository" ;
     dct:abstract """This is an example text for the abstract. It should be short and to the point.
@@ -90,16 +90,16 @@ A "Tell me more" link will appear if there is an additional description with a l
 including [links](https://google.es).
 """ ;
     skos:prefLabel "Building Blocks - My OGC Building Blocks repository" ;
-    bblocks:hasValidationReport <https://avillar.github.io/bblocks-sandbox/build/tests/report.html> ;
+    bblocks:hasValidationReport <https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/tests/report.html> ;
     bblocks:imports <https://opengeospatial.github.io/bblocks/register.json> .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-07-09T06:24:17.966208"^^xsd:dateTime ;
-    prov:startedAtTime "2024-07-09T06:24:17.906916"^^xsd:dateTime ;
+    prov:endedAtTime "2024-07-22T11:19:30.212703"^^xsd:dateTime ;
+    prov:startedAtTime "2024-07-22T11:19:30.153559"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
             dct:format "application/json" ;
-            dct:hasVersion "git:3f34317ffac28b1e1036cde0c77e7e75ccd7755f" ;
-            rdfs:seeAlso <https://avillar.github.io/bblocks-sandbox/build/register.json> ],
+            dct:hasVersion "git:a178f7a455b1c5fdb539a28506e897a56909f4f7" ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/register.json> ],
         [ a prov:Entity ;
             dct:format "application/yaml" ;
             rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ] ;

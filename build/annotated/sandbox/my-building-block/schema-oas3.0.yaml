@@ -15,20 +15,20 @@ x-defs:
         type: number
         x-jsonld-id: https://example.org/my-bb-model/b
       c:
-        $ref: https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema-oas3.0.yaml#/x-defs/avillar.sandbox.my-building-block/definitions/test
+        $ref: https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema-oas3.0.yaml#/x-defs/avillar.sandbox.my-building-block/definitions/test
       d:
-        $ref: https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema-oas3.0.yaml#/x-defs/avillar.sandbox.enumerations.legalStatus
+        $ref: https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema-oas3.0.yaml#/x-defs/avillar.sandbox.enumerations.legalStatus
     required:
     - a
     - b
-    x-schema-source: https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema.yaml
+    x-schema-source: https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema.yaml
     x-schema-version: https://json-schema.org/draft/2020-12/schema
   avillar.sandbox.enumerations.legalStatus:
     type: string
     enum:
     - agreed
     - notAgreed
-    x-schema-source: https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.yaml
+    x-schema-source: https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/enumerations/legalStatus/schema.yaml
 description: Schema for my building block
 type: object
 definitions:
@@ -44,9 +44,9 @@ properties:
     type: number
     x-jsonld-id: https://example.org/my-bb-model/b
   c:
-    $ref: https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema-oas3.0.yaml#/x-defs/avillar.sandbox.my-building-block/definitions/test
+    $ref: https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema-oas3.0.yaml#/x-defs/avillar.sandbox.my-building-block/definitions/test
   d:
-    $ref: https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema-oas3.0.yaml#/x-defs/avillar.sandbox.enumerations.legalStatus
+    $ref: https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema-oas3.0.yaml#/x-defs/avillar.sandbox.enumerations.legalStatus
 required:
 - a
 - b

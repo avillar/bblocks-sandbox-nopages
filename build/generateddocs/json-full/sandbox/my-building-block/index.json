@@ -9,7 +9,7 @@
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2023-04-05",
+  "dateOfLastChange": "2024-07-22",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
@@ -30,16 +30,16 @@
   "dependsOn": [
     "avillar.sandbox.enumerations.legalStatus"
   ],
-  "ldContext": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/context.jsonld",
+  "ldContext": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/context.jsonld",
   "schema": {
-    "application/yaml": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema.yaml",
-    "application/json": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema.json"
+    "application/yaml": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema.yaml",
+    "application/json": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema.json"
   },
-  "sourceSchema": "https://avillar.github.io/bblocks-sandbox/_sources/my-building-block/schema.yaml",
-  "sourceLdContext": "https://avillar.github.io/bblocks-sandbox/_sources/my-building-block/context.jsonld",
-  "sourceFiles": "https://avillar.github.io/bblocks-sandbox/_sources/my-building-block/",
+  "sourceSchema": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/_sources/my-building-block/schema.yaml",
+  "sourceLdContext": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/_sources/my-building-block/context.jsonld",
+  "sourceFiles": "https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/_sources/my-building-block/",
   "validationPassed": true,
-  "testOutputs": "https://github.com/avillar/bblocks-sandbox/blob/master/build/tests/sandbox/my-building-block/",
+  "testOutputs": "https://github.com/avillar/bblocks-sandbox-nopages/blob/master/build/tests/sandbox/my-building-block/",
   "description": "## Qui hastarum tectus Cithaeron iuvabat\n\nLorem markdownum vestigia sanguine rursus undis, suspenderat meo mox conlegerat\ntemperat sucos. Est graves dant sentire sanguinis flores respondent testari.\n\n** This is a relative URL: [example.png](assets/example.png) **.\n\n![Image](assets/example.png)\n\n> Videri vias quid Ausoniae sua flores ante, reminiscitur fuit est. Semel\n> [hectora](http://silvaque.org/) peregrinaeque rudem exercent in, Troiana si\n> Asida instabilesque somno sed.\n\n## Iam vota cui dilataque peterem\n\nTinxit lumina lacer liquidarum Aiax si mergitur sed fueris capitisque **et\ncadit** contigerant rectum [ferar](http://prosternit.com/quoque.html) temperat.\nMonet caput adsensere Ityn furentibus gelidos.",
   "examples": [
     {
@@ -65,7 +65,7 @@
       ]
     }
   ],
-  "annotatedSchema": "$schema: https://json-schema.org/draft/2020-12/schema\ndescription: Schema for my building block\ntype: object\ndefinitions:\n  test:\n    type: string\nproperties:\n  a:\n    type: string\n    format: uri\n    x-jsonld-id: https://example.org/my-bb-model/a\n    x-jsonld-type: '@id'\n  b:\n    type: number\n    x-jsonld-id: https://example.org/my-bb-model/b\n  c:\n    $ref: https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/schema.yaml#/definitions/test\n  d:\n    $ref: https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.yaml\nrequired:\n- a\n- b\n",
-  "gitRepository": "https://github.com/avillar/bblocks-sandbox",
+  "annotatedSchema": "$schema: https://json-schema.org/draft/2020-12/schema\ndescription: Schema for my building block\ntype: object\ndefinitions:\n  test:\n    type: string\nproperties:\n  a:\n    type: string\n    format: uri\n    x-jsonld-id: https://example.org/my-bb-model/a\n    x-jsonld-type: '@id'\n  b:\n    type: number\n    x-jsonld-id: https://example.org/my-bb-model/b\n  c:\n    $ref: https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/my-building-block/schema.yaml#/definitions/test\n  d:\n    $ref: https://raw.githubusercontent.com/avillar/bblocks-sandbox-nopages/undefined/build/annotated/sandbox/enumerations/legalStatus/schema.yaml\nrequired:\n- a\n- b\n",
+  "gitRepository": "https://github.com/avillar/bblocks-sandbox-nopages",
   "gitPath": "_sources/my-building-block"
 }
